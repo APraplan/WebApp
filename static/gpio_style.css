@@ -1,0 +1,44 @@
+body{
+    background-image: url('images/background_2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+  }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat, sans-serif;
+}
+
+
+button{
+  width:150px;
+  height:60px;
+  background-color: var(--blurred-color);
+  border: none;
+  color: var(--text-color);
+  text-align: center;
+  vertical-align:middle;
+  text-decoration: none;
+  display: inline-block;
+  font-size: var(--large-font-size);
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 5px;
+}
+
+button:hover{
+  background-color: var(--text-color);
+  color: var(--hover-color);
+}
+
+h1{
+    font-size: var(--large-font-size);
+    color: var(--text-color);
+    white-space: nowrap; 
+    overflow-wrap: normal;
+}

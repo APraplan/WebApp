@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <title> WebInterface </title>
+
+            <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+            <meta name='apple-mobile-web-app-capable' content='yes' />
+            <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+            <meta http-equiv='refresh' content='20'>
+
+            <link rel="stylesheet" href="../static/gpio_style.css"/>
+
+            <link rel="stylesheet" href="../static/sidenav.css"/>
+
+            <link rel="stylesheet" href="../static/navbar.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+        </head>
+        
+        <body> 
+
+            <header>
+                <div class="logo-container">
+                  <img src="/static/images/logo_simple_white.png" alt="Logo" onclick="toggleNav()">
+                </div>
+                <nav class="navbar">
+                    <a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+                    <a href="search"><i class="fa fa-fw fa-search"></i> Search</a>
+                    <!-- <a href="contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                    <a href="login"><i class="fa fa-fw fa-user"></i> Login</a> -->
+                </nav>
+            </header>
+
+            <div id="sidenav" class="sidenav">
+                <a href="gpio">GPIO</a>
+                <!-- <a href="clients">Clients</a>
+                <a href="contact">Contact</a> -->
+            </div>
+
+            <div id='core' class="core">
+                <center>
+                    <h1 href="gpio"> PinGPIO 2</h1>
+                    <button id='dig2on'>On </button>
+                    <button id='dig2off'>Off </button><br /> 
+                    <h1 href="gpio"> PinGPIO 3</h1>
+                    <button id='dig3on'>On </button>
+                    <button id='dig3off'>Off </button><br /> 
+                </center>
+             </div>
+
+            <script type="text/javascript" src="static\gpio.js"></script>
+
+            <script type="text/javascript" src="static\sidenav.js"></script>
+            <script type="text/javascript" src="static\settings.js"></script>
+    </body>
+</html>

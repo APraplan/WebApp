@@ -1,0 +1,38 @@
+ /* Navigation bar style */
+
+header {
+  background-color: transparent;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.logo-container img {
+  max-height: 35px;
+  opacity: 0.8;
+}
+
+.logo-container img:hover {
+  opacity: 1;
+}
+  
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 8px 16px 12px 12px; 
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: var(--medium-font-size);
+}
+  
+.navbar a:hover {
+    color: var(--hover-color);
+  }
+  
+  /* @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }  */

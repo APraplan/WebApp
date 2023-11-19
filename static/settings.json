@@ -1,0 +1,16 @@
+{
+    "colors": {
+      "text": "#c6c6c6",
+      "hover": "#ffffff",
+      "accent": "#22d6f6",
+      "blurred": "#00000080"
+    },
+    "fontSizes": {
+      "small": "12px",
+      "medium": "18px",
+      "large": "24px"
+    },
+    "elementSizes": {
+        "menuBarHeight": "50px"
+    }
+  }
